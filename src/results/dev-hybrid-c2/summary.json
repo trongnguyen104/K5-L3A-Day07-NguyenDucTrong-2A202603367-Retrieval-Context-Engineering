@@ -1,0 +1,21 @@
+{
+  "method": "hybrid-rrf",
+  "split": "dev",
+  "n_answerable": 15,
+  "n_unanswerable": 2,
+  "n_scored": 15,
+  "errors": 0,
+  "hit1": 7,
+  "hit3": 10,
+  "context_evidence": 10,
+  "hit1_rate": 0.4667,
+  "hit3_rate": 0.6667,
+  "context_evidence_rate": 0.6667,
+  "avg_context_chars": 1566.6666666666667,
+  "median_ms": 43.535099997825455,
+  "elapsed_seconds": 1.0395207000001392,
+  "top_k": 5,
+  "context_budget": 1800,
+  "index_seconds": 21.846695200001705,
+  "store": "day6"
+}

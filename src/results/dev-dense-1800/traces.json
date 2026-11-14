@@ -1,0 +1,1933 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Lõi vi điều khiển của dòng STM32F103x8 và STM32F103xB là gì?",
+    "answerable": true,
+    "filter": {
+      "family": "STM32F1"
+    },
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7534916107048524,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.698073148727422,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p28_paragraph_0",
+        "text": "Pinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 28,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6866719144587443,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p13_paragraph_0",
+        "text": "DS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6681921880359774,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p23_paragraph_0",
+        "text": "DS5319 Rev 19 23/114\nSTM32F103x8, STM32F103xB Pinouts and pin description\n104\nFigure 5. STM32F103xx performance line UFBGA100 pinout\nMS30481V1\nA\nB\nE\nD\nC\nF\nG\nH\nJ\nK\nL\nM\nPE3\nOSC_IN\nPC15\nOSC32_OUT\nPC14\nRTC_TAMPER\nPE4\nOSC_OUT\nPC0\nVSSA\nVREF-\nVREF+\nVDDA\nPE1\nPE5\nPE2\nPE6\nVBAT\nVSS_5\nVDD_5\nNRST\nPC1\nPC3\nPA0\nWKUP1\nPA1\nPB8\nPE0\nPB9\nVSS_3\nVSS_4\nVDD_4\nPC2\nPA2\nPA3\nPA4\nBOOT0\nPB7\nVDD_3\nPA5\nPA6\nPA7\nPD7\nPB6\nPB5\nPC4\nPC5\nPB0\nPD5\nPD6\nPB2\nPB1\nPB4\nPD4\nPE8\nPE7\nPB3\nPD3\nPD2\nPD9\nPE10\nPE9\nPA15\nPD1\nPD0\nPD8\nPE12\nPE11\nPA14\nPC12\nP",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 23,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6531143772406323,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x\n\n[stm32f103c8_p28_paragraph_0 | stm32f103c8.pdf | page 28]\nPinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19\n\n[stm32f103c8_p13_paragraph_0 | stm32f103c8.pdf | page 13]\nDS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+    "context_ids": [
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p9_paragraph_0",
+      "stm32f103c8_p28_paragraph_0",
+      "stm32f103c8_p13_paragraph_0"
+    ],
+    "context_chars": 1386,
+    "elapsed_ms": 263.2668999976886,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Tần số hoạt động tối đa của STM32F103xx là bao nhiêu MHz?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p5_paragraph_9",
+        "text": "\nTable 32. EMI characteristics for fHSE = 8 MHz and fHCLK = 72 MHz . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 33. ESD absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 34. Electrical sensitivities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 59\nTable 35. I/O current injection susceptibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 5,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6811460649625667,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6558353119092808,
+        "rank": 2,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6221650468012674,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p6_paragraph_1",
+        "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\nTable 48. R AIN max for fADC = 14 MHz. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75\nTable 49. ADC accuracy - Limited test conditi ons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 5\nTable 50. ADC accuracy  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 6,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6128636694794303,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_2",
+        "text": "chronization or event chaining.\nGeneral-purpose timers (TIMx)\nThere are up to three synchronizable general-purpose timers embedded in the\nSTM32F103xx performance line devices. These timers are based on a 16-bit auto-reload\nup/down counter, a 16-bit prescaler and feature four independent channels each for input\ncapture/output compare, PWM or one-pulse mode output. This gives up to 12 input\ncaptures/output compares/PWMs on the largest packages.\nThe general-purpose timers can work together with the",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6072786322499952,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p5_paragraph_9 | stm32f103c8.pdf | page 5]\n\nTable 32. EMI characteristics for fHSE = 8 MHz and fHCLK = 72 MHz . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 33. ESD absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 34. Electrical sensitivities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 59\nTable 35. I/O current injection susceptibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n\n[stm32f103c8_p1_paragraph_0 | stm32f103c8.pdf | page 1]\nThis is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar\n\n[stm32f103c8_p18_paragraph_0 | stm32f103c8.pdf | page 18]\nDescription STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+    "context_ids": [
+      "stm32f103c8_p5_paragraph_9",
+      "stm32f103c8_p1_paragraph_0",
+      "stm32f103c8_p18_paragraph_0"
+    ],
+    "context_chars": 1674,
+    "elapsed_ms": 40.98059999887482,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Dải điện áp hoạt động ứng dụng và I/O của STM32F103xx là bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7140458481366453,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p13_paragraph_2",
+        "text": "E\nare a drop-in replacement for STM32F103x8/B medium-density devices, allowing the user\nto try different memory densities and providing a greater degree of freedom during the\ndevelopment cycle.\nMoreover, the STM32F103xx performance line family is fully compatible with all existing\nSTM32F101xx access line and STM32F102xx USB access line devices.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6592700278323917,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6527575254440354,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6371439695358322,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p35_paragraph_0",
+        "text": "DS5319 Rev 19 35/114\nSTM32F103x8, STM32F103xB Electrical characteristics\n104\n5 Electrical characteristics\n5.1 Parameter conditions\nUnless otherwise specified, all voltages are referenced to VSS.\n5.1.1 Minimum and maximum values\nUnless otherwise specified the minimum and maximum values are guaranteed in the worst\nconditions of ambient temperature, supply voltage and frequencies by tests in production on\n100% of the devices with an ambient temperature at TA = 25°C and TA = TAmax (given by\nthe sele",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 35,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6338514467389265,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p13_paragraph_2 | stm32f103c8.pdf | page 13]\nE\nare a drop-in replacement for STM32F103x8/B medium-density devices, allowing the user\nto try different memory densities and providing a greater degree of freedom during the\ndevelopment cycle.\nMoreover, the STM32F103xx performance line family is fully compatible with all existing\nSTM32F101xx access line and STM32F102xx USB access line devices.\n\n[stm32f103c8_p1_paragraph_0 | stm32f103c8.pdf | page 1]\nThis is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar\n\n[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+    "context_ids": [
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p13_paragraph_2",
+      "stm32f103c8_p1_paragraph_0",
+      "stm32f103c8_p9_paragraph_0"
+    ],
+    "context_chars": 1657,
+    "elapsed_ms": 44.783400000596885,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Vi điều khiển STM32F103xx hỗ trợ những chế độ tiết kiệm năng lượng nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p9_paragraph_3",
+        "text": " 2.0 to 3.6 V power supply. They are available in both the –40 to\n+85°C temperature range and the –40 to +105 °C extended temperature range. A\ncomprehensive set of power-saving mode allows the design of low-power applications.\nThe STM32F103xx medium-density performance line family includes devices in six different\npackage types: from 36 pins to 100 pins. Depending on the device chosen, different sets of\nperipherals are included, the description below gives an overview of the complete range of\npe",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6009911656970491,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5776246878653393,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_3",
+        "text": "tails on how to manage these IOs, refer to the\nBattery backup domain and BKP register description sections in the STM32F10xxx reference manual, available from the\nSTMicroelectronics website: www.st.com.\n7. The pins number 2 and 3 in the VFQFPN36 package, 5 and 6 in the LQFP48, UFQFP48 and LQFP64 packages, and C1\nand C2 in the TFBGA64 package are configured as OSC_IN/OSC_OUT after reset, however the functionality of PD0 and\nPD1 can be remapped by software on these pins. For the LQFP100 package, P",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.573998485445887,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p13_paragraph_2",
+        "text": "E\nare a drop-in replacement for STM32F103x8/B medium-density devices, allowing the user\nto try different memory densities and providing a greater degree of freedom during the\ndevelopment cycle.\nMoreover, the STM32F103xx performance line family is fully compatible with all existing\nSTM32F101xx access line and STM32F102xx USB access line devices.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5727455957380302,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p16_paragraph_2",
+        "text": "registers and SRAM are lost)\nThis regulator is always enabled after reset. It is disabled in Standby mode, providing high\nimpedance output.\n2.3.12 Low-power modes\nThe STM32F103xx performance line supports three low-power modes to achieve the best\ncompromise between low-power consumption, short startup time and available wakeup\nsources:\n• Sleep mode\nIn Sleep mode, only the CPU is stopped. All peripherals continue to operate and can\nwake up the CPU when an interrupt/event occurs.\n• Stop mode\nThe S",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5643593409275626,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p9_paragraph_3 | stm32f103c8.pdf | page 9]\n 2.0 to 3.6 V power supply. They are available in both the –40 to\n+85°C temperature range and the –40 to +105 °C extended temperature range. A\ncomprehensive set of power-saving mode allows the design of low-power applications.\nThe STM32F103xx medium-density performance line family includes devices in six different\npackage types: from 36 pins to 100 pins. Depending on the device chosen, different sets of\nperipherals are included, the description below gives an overview of the complete range of\npe\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p33_paragraph_3 | stm32f103c8.pdf | page 33]\ntails on how to manage these IOs, refer to the\nBattery backup domain and BKP register description sections in the STM32F10xxx reference manual, available from the\nSTMicroelectronics website: www.st.com.\n7. The pins number 2 and 3 in the VFQFPN36 package, 5 and 6 in the LQFP48, UFQFP48 and LQFP64 packages, and C1\nand C2 in the TFBGA64 package are configured as OSC_IN/OSC_OUT after reset, however the functionality of PD0 and\nPD1 can be remapped by software on these pins. For the LQFP100 package, P\n\n[stm32f103c8_p13_paragraph_2 | stm32f103c8.pdf | page 13]\nE\nare a drop-in replacement for STM32F103x8/B medium-density devices, allowing the user\nto try different memory densities and providing a greater degree of freedom during the\ndevelopment cycle.\nMoreover, the STM32F103xx performance line family is fully compatible with all existing\nSTM32F101xx access line and STM32F102xx USB access line devices.",
+    "context_ids": [
+      "stm32f103c8_p9_paragraph_3",
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p33_paragraph_3",
+      "stm32f103c8_p13_paragraph_2"
+    ],
+    "context_chars": 1659,
+    "elapsed_ms": 42.990400001144735,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Độ phân giải và thời gian chuyển đổi của bộ A/D converter trên STM32F103xx là bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p20_paragraph_1",
+        "text": " avoid spurious writing to the I/Os registers.\nI/Os on APB2 with up to 18 MHz toggling speed.\n2.3.22 ADC (analog-to -digital converter)\nTwo 12-bit analog-to-digital converters are embedded into STM32F103xx performance line\ndevices and each ADC shares up to 16 external channels, performing conversions in single-\nshot or scan modes. In scan mode, automatic conversion is performed on a selected group\nof analog inputs.\nAdditional logic functions embedded in the ADC interface allow:\n• Simultaneous sa",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 20,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5663627048514671,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_2",
+        "text": " are supplied through the power switch. Si nce the switch only sinks a limited amount of current\n(3 mA), the use of GPIOs PC13 to PC15 in output mode is limited: the speed should not exceed 2 MHz with a maximum\nload of 30 pF and these IOs must not be used as a current source (e.g. to drive a LED).\n6. Main function after the first backup domain power-up. Later  on, it depends on the contents of the Backup registers even\nafter reset (because these registers are not reset by the main reset). For de",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5536678039429548,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5419585654784959,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p17_paragraph_3",
+        "text": " for any natural crystal deviation. The RTC\nfeatures a 32-bit programmable counter for long-term measurement using the Compare\nregister to generate an alarm. A 20-bit prescaler is used for the time base clock and is by\ndefault configured to generate a time base of 1 second from a clock at 32.768 kHz.\n2.3.15 Timers and watchdogs\nThe medium-density STM32F103xx performance line devices include an advanced-control\ntimer, three general-purpose timers, two watchdog timers and a SysTick timer.\nTable 4 ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5365129389457153,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5300032180545805,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p20_paragraph_1 | stm32f103c8.pdf | page 20]\n avoid spurious writing to the I/Os registers.\nI/Os on APB2 with up to 18 MHz toggling speed.\n2.3.22 ADC (analog-to -digital converter)\nTwo 12-bit analog-to-digital converters are embedded into STM32F103xx performance line\ndevices and each ADC shares up to 16 external channels, performing conversions in single-\nshot or scan modes. In scan mode, automatic conversion is performed on a selected group\nof analog inputs.\nAdditional logic functions embedded in the ADC interface allow:\n• Simultaneous sa\n\n[stm32f103c8_p33_paragraph_2 | stm32f103c8.pdf | page 33]\n are supplied through the power switch. Si nce the switch only sinks a limited amount of current\n(3 mA), the use of GPIOs PC13 to PC15 in output mode is limited: the speed should not exceed 2 MHz with a maximum\nload of 30 pF and these IOs must not be used as a current source (e.g. to drive a LED).\n6. Main function after the first backup domain power-up. Later  on, it depends on the contents of the Backup registers even\nafter reset (because these registers are not reset by the main reset). For de\n\n[stm32f103c8_p1_paragraph_0 | stm32f103c8.pdf | page 1]\nThis is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+    "context_ids": [
+      "stm32f103c8_p20_paragraph_1",
+      "stm32f103c8_p33_paragraph_2",
+      "stm32f103c8_p1_paragraph_0"
+    ],
+    "context_chars": 1676,
+    "elapsed_ms": 46.125700002448866,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Tài liệu giới thiệu những dòng vi điều khiển hiệu năng trung bình nào của STMicroelectronics?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6303293329281023,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5712572591747497,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_4",
+        "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5674107074737549,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p35_paragraph_0",
+        "text": "DS5319 Rev 19 35/114\nSTM32F103x8, STM32F103xB Electrical characteristics\n104\n5 Electrical characteristics\n5.1 Parameter conditions\nUnless otherwise specified, all voltages are referenced to VSS.\n5.1.1 Minimum and maximum values\nUnless otherwise specified the minimum and maximum values are guaranteed in the worst\nconditions of ambient temperature, supply voltage and frequencies by tests in production on\n100% of the devices with an ambient temperature at TA = 25°C and TA = TAmax (given by\nthe sele",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 35,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.557039737701416,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p3_paragraph_4",
+        "text": " . . . . . . . . . . . . . . . . 57\n5.3.11 Absolute maximum ratings (electrical sensitivity) . . . . . . . . . . . . . . . . . . 59\n5.3.12 I/O current injection characte ristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\n5.3.13 I/O port characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61\n5.3.14 NRST pin characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\n5.3.15 TIM timer characteristics  . . . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5451341271400452,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x\n\n[stm32f103c8_p1_paragraph_0 | stm32f103c8.pdf | page 1]\nThis is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar\n\n[stm32f103c8_p9_paragraph_4 | stm32f103c8.pdf | page 9]\nripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+    "context_ids": [
+      "stm32f103c8_p9_paragraph_0",
+      "stm32f103c8_p1_paragraph_0",
+      "stm32f103c8_p9_paragraph_4"
+    ],
+    "context_chars": 1660,
+    "elapsed_ms": 50.62719999841647,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Bảng 2 trong datasheet mô tả nội dung gì của các thiết bị medium-density?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p10_paragraph_1",
+        "text": "Table 2. STM32F103xx medium-density device features and peripheral counts\nPeripheral STM32F103Tx STM32F103Cx STM32F103Rx STM32F103Vx\nFlash - Kbytes 64 128 64 128 64 128 64 128\nSRAM - Kbytes 20 20 20 20\nTimers\nGeneral-purpose 33 3 3\nAdvanced-control 11 1 1\nCommunication\nSPI 12 2 2\nI2C 12 2 2\nUSART 23 3 3\nUSB 11 1 1\nCAN 11 1 1\nGPIOs 26 37 51 80\n12-bit synchronized ADC\nNumber of channels\n2\n10 channels\n2\n10 channels\n2\n16 channels(1)\n1. On the TFBGA64 package only 15 channels are avai lable (one anal",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6289390291815153,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p5_paragraph_0",
+        "text": "DS5319 Rev 19 5/114\nSTM32F103x8, STM32F103xB List of tables\n6\nList of tables\nTable 1. Device summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1\nTable 2. STM32F103xx medium-density device features and peripheral counts . . . . . . . . . . . . . . . 10\nTable 3. STM32F103xx family  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\nTable 4. Timer feature comparison. ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 5,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6052212424905962,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.582718985757804,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p5_paragraph_1",
+        "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nTable 5. Medium-density STM32F103xx pin definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\nTable 6. Voltage characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 37\nTable 7. Current characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 5,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5682377469893916,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5426713389954431,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p10_paragraph_1 | stm32f103c8.pdf | page 10]\nTable 2. STM32F103xx medium-density device features and peripheral counts\nPeripheral STM32F103Tx STM32F103Cx STM32F103Rx STM32F103Vx\nFlash - Kbytes 64 128 64 128 64 128 64 128\nSRAM - Kbytes 20 20 20 20\nTimers\nGeneral-purpose 33 3 3\nAdvanced-control 11 1 1\nCommunication\nSPI 12 2 2\nI2C 12 2 2\nUSART 23 3 3\nUSB 11 1 1\nCAN 11 1 1\nGPIOs 26 37 51 80\n12-bit synchronized ADC\nNumber of channels\n2\n10 channels\n2\n10 channels\n2\n16 channels(1)\n1. On the TFBGA64 package only 15 channels are avai lable (one anal\n\n[stm32f103c8_p5_paragraph_0 | stm32f103c8.pdf | page 5]\nDS5319 Rev 19 5/114\nSTM32F103x8, STM32F103xB List of tables\n6\nList of tables\nTable 1. Device summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1\nTable 2. STM32F103xx medium-density device features and peripheral counts . . . . . . . . . . . . . . . 10\nTable 3. STM32F103xx family  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\nTable 4. Timer feature comparison. \n\n[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+    "context_ids": [
+      "stm32f103c8_p10_paragraph_1",
+      "stm32f103c8_p5_paragraph_0",
+      "stm32f103c8_p9_paragraph_0"
+    ],
+    "context_chars": 1674,
+    "elapsed_ms": 43.92809999990277,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Khi HSI được dùng làm đầu vào PLL clock thì tần số xung nhịp hệ thống tối đa đạt được là bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p12_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n12/114 DS5319 Rev 19\nFigure 2. Clock tree\n1. When the HSI is used as a PLL clock input, the maxi mum system clock frequency that can be achieved is\n64 MHz.\n2. For the availability of the USB function both HSE and PLL must be enabled, with USBCLK running at\n48 MHz.\n3. To have an ADC conversion time of 1 µs, APB2  must be at 14 MHz, 28 MHz, or 56 MHz.\nHSE OSC\n4-16 MHz\nOSC_IN\nOSC_OUT\nOSC32_IN\nOSC32_OUT\nLSE OSC\n32.768 kHz\nHSI RC\n8 MHz\nLSI RC\n40 kHz\nto Independent",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 12,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.770276665687561,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p19_paragraph_4",
+        "text": "12 Mbit/s) function\ninterface. It has software-configurable endpoint setting and suspend/resume support. The\ndedicated 48 MHz clock is generated from the internal main PLL (the clock source must use\na HSE crystal oscillator).",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7248196601867676,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p15_paragraph_2",
+        "text": "ches\nback to the internal RC oscillator. A software interrupt is generated if enabled. Similarly, full\ninterrupt management of the PLL clock entry is available when necessary (for example, on\nfailure of an indirectly used external crystal, resonator, or oscillator).\nSeveral prescalers allow the configuration of the AHB frequency, the high-speed APB\n(APB2) and the low-speed APB (APB1) domains. The maximum frequency of the AHB and\nthe high-speed APB domains is 72 MHz. The maximum allowed frequency",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 15,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6917557900097507,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p17_paragraph_2",
+        "text": "nt.\nThe real-time clock provides a set of continuously running counters which can be used with\nsuitable software to provide a clock calendar function, and provides an alarm interrupt and a\nperiodic interrupt. It is clocked by a 32.768 kHz external crystal, resonator or oscillator, the\ninternal low-power RC oscillator or the high-speed external clock divided by 128. The\ninternal low-power RC has a typical frequency of 40 kHz. The RTC can be calibrated using\nan external 512 Hz output to compensate",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6395105910155356,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p12_paragraph_2",
+        "text": "ipheral Clock\nEnable (11 bits)\nEnable (1 bit)\nPeripheral Clock\n48 MHz\n72 MHz max\n72 MHz\n72 MHz max\n36 MHz max\nto RTC\nPLLSRC SW\nMCO\nCSS\nto Cortex System timer/8\nClock\nEnable (3 bits)\nSYSCLK\nmax\nRTCCLK\nRTCSEL[1:0]\nTIM1CLK\nTIMXCLK\nIWDGCLK\nSYSCLK\nFCLK Cortex\nfree running clock\nTIM2,3, 4\nIf (APB1 prescaler =1) x1\nelse x2\nTIM1 timer\nIf (APB2 prescaler =1) x1\nelse x2\nHSE = high-speed external clock signal\nHSI = high-speed internal clock signal\nLSI = low-speed internal clock signal\nLSE = low-speed exter",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 12,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6357378959655762,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p12_paragraph_0 | stm32f103c8.pdf | page 12]\nDescription STM32F103x8, STM32F103xB\n12/114 DS5319 Rev 19\nFigure 2. Clock tree\n1. When the HSI is used as a PLL clock input, the maxi mum system clock frequency that can be achieved is\n64 MHz.\n2. For the availability of the USB function both HSE and PLL must be enabled, with USBCLK running at\n48 MHz.\n3. To have an ADC conversion time of 1 µs, APB2  must be at 14 MHz, 28 MHz, or 56 MHz.\nHSE OSC\n4-16 MHz\nOSC_IN\nOSC_OUT\nOSC32_IN\nOSC32_OUT\nLSE OSC\n32.768 kHz\nHSI RC\n8 MHz\nLSI RC\n40 kHz\nto Independent\n\n[stm32f103c8_p19_paragraph_4 | stm32f103c8.pdf | page 19]\n12 Mbit/s) function\ninterface. It has software-configurable endpoint setting and suspend/resume support. The\ndedicated 48 MHz clock is generated from the internal main PLL (the clock source must use\na HSE crystal oscillator).\n\n[stm32f103c8_p15_paragraph_2 | stm32f103c8.pdf | page 15]\nches\nback to the internal RC oscillator. A software interrupt is generated if enabled. Similarly, full\ninterrupt management of the PLL clock entry is available when necessary (for example, on\nfailure of an indirectly used external crystal, resonator, or oscillator).\nSeveral prescalers allow the configuration of the AHB frequency, the high-speed APB\n(APB2) and the low-speed APB (APB1) domains. The maximum frequency of the AHB and\nthe high-speed APB domains is 72 MHz. The maximum allowed frequency",
+    "context_ids": [
+      "stm32f103c8_p12_paragraph_0",
+      "stm32f103c8_p19_paragraph_4",
+      "stm32f103c8_p15_paragraph_2"
+    ],
+    "context_chars": 1403,
+    "elapsed_ms": 69.63960000211955,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Các thành viên trong họ STM32F103xx có mức độ tương thích như thế nào với nhau?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p13_paragraph_0",
+        "text": "DS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7230246067047119,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.658216437207674,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6444644120016355,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p28_paragraph_0",
+        "text": "Pinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 28,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6042013348400993,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p2_paragraph_0",
+        "text": "STM32F103x8, STM32F103xB\n2/114 DS5319 Rev 19\n1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2 Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.1 Device overview  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10\n2.2 Full compatibility throughout the family . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n2.3 Overview .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 2,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5831426307388535,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p13_paragraph_0 | stm32f103c8.pdf | page 13]\nDS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext\n\n[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p28_paragraph_0 | stm32f103c8.pdf | page 28]\nPinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19",
+    "context_ids": [
+      "stm32f103c8_p13_paragraph_0",
+      "stm32f103c8_p9_paragraph_0",
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p28_paragraph_0"
+    ],
+    "context_chars": 1386,
+    "elapsed_ms": 61.985699998331256,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Bộ xử lý Arm Cortex-M3 được phát triển nhằm đáp ứng mục đích gì cho các hệ thống nhúng?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p14_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n14/114 DS5319 Rev 19\n2.3 Overview\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM\nThe Arm® Cortex®-M3 processor is the latest generation of Arm® processors for embedded\nsystems. It has been developed to provide a low-cost platform that meets the needs of MCU\nimplementation, with a reduced pin count and low-power consumption, while delivering\noutstanding computational performance and an advanced system response to interrupts.\nThe Arm® Cortex®-M3 32-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 14,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7259120508484823,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p2_paragraph_1",
+        "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 2,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6483842923755736,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_4",
+        "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5451825857162476,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_1",
+        "text": "xx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5309293270111084,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_2",
+        "text": "rporates the\nhigh-performance Arm® Cortex®-M3 32-bit RISC core operating at a 72 MHz frequency,\nhigh-speed embedded memories (Flash memory up to 128 Kbytes and SRAM up to\n20 Kbytes), and an extensive range of enhanced I/Os and peripherals connected to two\nAPB buses. All devices offer two 12-bit ADCs, three general purpose 16-bit timers plus one\nPWM timer, as well as standard and advanced communication interfaces: up to two I2Cs\nand SPIs, three USARTs, an USB and a CAN.\nThe devices operate from a",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5259599089622498,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p14_paragraph_0 | stm32f103c8.pdf | page 14]\nDescription STM32F103x8, STM32F103xB\n14/114 DS5319 Rev 19\n2.3 Overview\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM\nThe Arm® Cortex®-M3 processor is the latest generation of Arm® processors for embedded\nsystems. It has been developed to provide a low-cost platform that meets the needs of MCU\nimplementation, with a reduced pin count and low-power consumption, while delivering\noutstanding computational performance and an advanced system response to interrupts.\nThe Arm® Cortex®-M3 32-bi\n\n[stm32f103c8_p2_paragraph_1 | stm32f103c8.pdf | page 2]\n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested \n\n[stm32f103c8_p9_paragraph_4 | stm32f103c8.pdf | page 9]\nripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+    "context_ids": [
+      "stm32f103c8_p14_paragraph_0",
+      "stm32f103c8_p2_paragraph_1",
+      "stm32f103c8_p9_paragraph_4"
+    ],
+    "context_chars": 1662,
+    "elapsed_ms": 52.3018999992928,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Thiết bị giữ trạng thái reset trong điều kiện điện áp VDD như thế nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p16_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n16/114 DS5319 Rev 19\nin reset mode when VDD is below a specified threshold, VPOR/PDR, without the need for an\nexternal reset circuit.\nThe device features an embedded programmable voltage detector (PVD) that monitors the\nVDD/VDDA power supply and compares it to the VPVD threshold. An interrupt can be\ngenerated when VDD/VDDA drops below the VPVD threshold and/or when VDD/VDDA is\nhigher than the VPVD threshold. The interrupt service routine can then generate a w",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7631982110024579,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p15_paragraph_5",
+        "text": ": Power supply scheme.\n2.3.10 Power supply supervisor\nThe device has an integrated power-on reset (POR)/power-down reset (PDR) circuitry. It is\nalways active, and ensures proper operation starting from/down to 2 V. The device remains",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 15,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6299631220124302,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p16_paragraph_4",
+        "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6063348885575014,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p15_paragraph_4",
+        "text": " internal regulator.\nProvided externally through VDD pins.\n• VSSA, VDDA = 2.0 to 3.6 V: external analog power supplies for ADC, reset blocks, RCs,\nand PLL (minimum voltage to be applied to VDDA is 2.4 V when the ADC is used).\nVDDA and VSSA must be connected to VDD and VSS, respectively.\n• VBAT = 1.8 to 3.6 V: power supply for RTC, external clock 32 kHz oscillator and backup\nregisters (through power switch) when VDD is not present.\nFor more details on how to connect power pins, refer to Figure 14",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 15,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5941769722594646,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p2_paragraph_3",
+        "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 2,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5526660680770913,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p16_paragraph_0 | stm32f103c8.pdf | page 16]\nDescription STM32F103x8, STM32F103xB\n16/114 DS5319 Rev 19\nin reset mode when VDD is below a specified threshold, VPOR/PDR, without the need for an\nexternal reset circuit.\nThe device features an embedded programmable voltage detector (PVD) that monitors the\nVDD/VDDA power supply and compares it to the VPVD threshold. An interrupt can be\ngenerated when VDD/VDDA drops below the VPVD threshold and/or when VDD/VDDA is\nhigher than the VPVD threshold. The interrupt service routine can then generate a w\n\n[stm32f103c8_p15_paragraph_5 | stm32f103c8.pdf | page 15]\n: Power supply scheme.\n2.3.10 Power supply supervisor\nThe device has an integrated power-on reset (POR)/power-down reset (PDR) circuitry. It is\nalways active, and ensures proper operation starting from/down to 2 V. The device remains\n\n[stm32f103c8_p16_paragraph_4 | stm32f103c8.pdf | page 16]\nto achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+    "context_ids": [
+      "stm32f103c8_p16_paragraph_0",
+      "stm32f103c8_p15_paragraph_5",
+      "stm32f103c8_p16_paragraph_4"
+    ],
+    "context_chars": 1411,
+    "elapsed_ms": 56.827399999747286,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Chức năng PVD tích hợp trong STM32F103xx giám sát nguồn cung cấp nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p16_paragraph_1",
+        "text": "arning\nmessage and/or put the MCU into a safe state. The PVD is enabled by software.\nRefer to Table 11 for the values of VPOR/PDR and VPVD.\n2.3.11 Voltage regulator\nThe regulator has three operation modes: main (MR), low-power (LPR) and power down.\n• MR is used in the nominal regulation mode (Run)\n• LPR is used in the Stop mode\n• Power down is used in Standby mode: the regulator output is in high impedance: the\nkernel circuitry is powered down, inducing zero consumption (but the contents of the\n",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6963425097669679,
+        "rank": 1,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6189611695958578,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p15_paragraph_4",
+        "text": " internal regulator.\nProvided externally through VDD pins.\n• VSSA, VDDA = 2.0 to 3.6 V: external analog power supplies for ADC, reset blocks, RCs,\nand PLL (minimum voltage to be applied to VDDA is 2.4 V when the ADC is used).\nVDDA and VSSA must be connected to VDD and VSS, respectively.\n• VBAT = 1.8 to 3.6 V: power supply for RTC, external clock 32 kHz oscillator and backup\nregisters (through power switch) when VDD is not present.\nFor more details on how to connect power pins, refer to Figure 14",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 15,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5924774165438076,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p16_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n16/114 DS5319 Rev 19\nin reset mode when VDD is below a specified threshold, VPOR/PDR, without the need for an\nexternal reset circuit.\nThe device features an embedded programmable voltage detector (PVD) that monitors the\nVDD/VDDA power supply and compares it to the VPVD threshold. An interrupt can be\ngenerated when VDD/VDDA drops below the VPVD threshold and/or when VDD/VDDA is\nhigher than the VPVD threshold. The interrupt service routine can then generate a w",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5776017056466176,
+        "rank": 4,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5776005387306254,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p16_paragraph_1 | stm32f103c8.pdf | page 16]\narning\nmessage and/or put the MCU into a safe state. The PVD is enabled by software.\nRefer to Table 11 for the values of VPOR/PDR and VPVD.\n2.3.11 Voltage regulator\nThe regulator has three operation modes: main (MR), low-power (LPR) and power down.\n• MR is used in the nominal regulation mode (Run)\n• LPR is used in the Stop mode\n• Power down is used in Standby mode: the regulator output is in high impedance: the\nkernel circuitry is powered down, inducing zero consumption (but the contents of the\n\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p15_paragraph_4 | stm32f103c8.pdf | page 15]\n internal regulator.\nProvided externally through VDD pins.\n• VSSA, VDDA = 2.0 to 3.6 V: external analog power supplies for ADC, reset blocks, RCs,\nand PLL (minimum voltage to be applied to VDDA is 2.4 V when the ADC is used).\nVDDA and VSSA must be connected to VDD and VSS, respectively.\n• VBAT = 1.8 to 3.6 V: power supply for RTC, external clock 32 kHz oscillator and backup\nregisters (through power switch) when VDD is not present.\nFor more details on how to connect power pins, refer to Figure 14",
+    "context_ids": [
+      "stm32f103c8_p16_paragraph_1",
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p15_paragraph_4"
+    ],
+    "context_chars": 1255,
+    "elapsed_ms": 58.905599998979596,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Bộ điều khiển DMA 7 kênh của STM32F103xx hỗ trợ những chế độ truyền dữ liệu nào?",
+    "answerable": true,
+    "filter": {
+      "family": "STM32F1"
+    },
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p17_paragraph_0",
+        "text": "DS5319 Rev 19 17/114\nSTM32F103x8, STM32F103xB Description\n104\n2.3.13 DMA\nThe flexible 7-channel general-purpose DMA is able to manage memory-to-memory,\nperipheral-to-memory and memory-to-peripheral transfers. The DMA controller supports\ncircular buffer management avoiding the generation of interrupts when the controller\nreaches the end of the buffer.\nEach channel is connected to dedicated hardware DMA requests, with support for software\ntrigger on each channel. Configuration is made by software ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7624109245783656,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p11_paragraph_2",
+        "text": "BKIN\n4 Channels\n4 Channels\n4 Channels\nFCLK\nRC 40 kHz\nStand by\nIWDG\n@VBAT\nPOR / PDR\nSUPPLY\n@VDDA\nVDDA\nVSSA\n@VDDA\nVBAT\nRX,TX, CTS, RTS,\nSmartCard as AF\nRX,TX, CTS, RTS,\nCK, SmartCard as AF\nAPB2 : Fmax=48 / 72 MHz\nNVIC\nSPI1MOSI,MISO,SCK,NSS as AF\n12bit ADC2\nIF\nIFIF\ninterface@VDDA\nSUPERVISION\nPVD\nRst\nInt\n@VDD\nAHB2\nAPB2 APB1\nAWU TAMPER-RTC\n@VDD\nUSB 2.0 FS\nUSBDM/CAN_RX\nSyst em\nai14390d\nTRACECLK\nTRACED[0:3]\nas AS\nSW/JTAG\nTPIU\nTrace/trig\nCK, SmartCard as AF",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 11,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6204796988200897,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p17_paragraph_1",
+        "text": "and transfer sizes between\nsource and destination are independent.\nThe DMA can be used with the main peripherals: SPI, I2C, USART, general-purpose and\nadvanced-control timers TIMx and ADC.\n2.3.14 RTC (real-time cl ock) and backup registers\nThe RTC and the backup registers are supplied through a switch that takes power either on\nVDD supply when present or through the VBAT pin. The backup registers are ten 16-bit\nregisters used to store 20 bytes of user application data when VDD power is not prese",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.6132068634033203,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p19_paragraph_2",
+        "text": "capability.\nAll USART interfaces can be served by the DMA controller.\n2.3.18 Serial peripheral interface (SPI)\nUp to two SPIs are able to communicate up to 18 Mbits/s in slave and master modes in\nfull-duplex and simplex communication modes. The 3-bit prescaler gives 8 master mode\nfrequencies and the frame is configurable to 8 bits or 16 bits. The hardware CRC\ngeneration/verification supports basic SD Card/MMC modes.\nBoth SPIs can be served by the DMA controller.\n2.3.19 Controller area network (C",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.554288387298584,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5514003038406372,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p17_paragraph_0 | stm32f103c8.pdf | page 17]\nDS5319 Rev 19 17/114\nSTM32F103x8, STM32F103xB Description\n104\n2.3.13 DMA\nThe flexible 7-channel general-purpose DMA is able to manage memory-to-memory,\nperipheral-to-memory and memory-to-peripheral transfers. The DMA controller supports\ncircular buffer management avoiding the generation of interrupts when the controller\nreaches the end of the buffer.\nEach channel is connected to dedicated hardware DMA requests, with support for software\ntrigger on each channel. Configuration is made by software \n\n[stm32f103c8_p11_paragraph_2 | stm32f103c8.pdf | page 11]\nBKIN\n4 Channels\n4 Channels\n4 Channels\nFCLK\nRC 40 kHz\nStand by\nIWDG\n@VBAT\nPOR / PDR\nSUPPLY\n@VDDA\nVDDA\nVSSA\n@VDDA\nVBAT\nRX,TX, CTS, RTS,\nSmartCard as AF\nRX,TX, CTS, RTS,\nCK, SmartCard as AF\nAPB2 : Fmax=48 / 72 MHz\nNVIC\nSPI1MOSI,MISO,SCK,NSS as AF\n12bit ADC2\nIF\nIFIF\ninterface@VDDA\nSUPERVISION\nPVD\nRst\nInt\n@VDD\nAHB2\nAPB2 APB1\nAWU TAMPER-RTC\n@VDD\nUSB 2.0 FS\nUSBDM/CAN_RX\nSyst em\nai14390d\nTRACECLK\nTRACED[0:3]\nas AS\nSW/JTAG\nTPIU\nTrace/trig\nCK, SmartCard as AF\n\n[stm32f103c8_p17_paragraph_1 | stm32f103c8.pdf | page 17]\nand transfer sizes between\nsource and destination are independent.\nThe DMA can be used with the main peripherals: SPI, I2C, USART, general-purpose and\nadvanced-control timers TIMx and ADC.\n2.3.14 RTC (real-time cl ock) and backup registers\nThe RTC and the backup registers are supplied through a switch that takes power either on\nVDD supply when present or through the VBAT pin. The backup registers are ten 16-bit\nregisters used to store 20 bytes of user application data when VDD power is not prese",
+    "context_ids": [
+      "stm32f103c8_p17_paragraph_0",
+      "stm32f103c8_p11_paragraph_2",
+      "stm32f103c8_p17_paragraph_1"
+    ],
+    "context_chars": 1631,
+    "elapsed_ms": 56.97389999841107,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Bộ điều khiển DMA có hỗ trợ quản lý bộ đệm vòng tròn không?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p17_paragraph_0",
+        "text": "DS5319 Rev 19 17/114\nSTM32F103x8, STM32F103xB Description\n104\n2.3.13 DMA\nThe flexible 7-channel general-purpose DMA is able to manage memory-to-memory,\nperipheral-to-memory and memory-to-peripheral transfers. The DMA controller supports\ncircular buffer management avoiding the generation of interrupts when the controller\nreaches the end of the buffer.\nEach channel is connected to dedicated hardware DMA requests, with support for software\ntrigger on each channel. Configuration is made by software ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7330197373652145,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p20_paragraph_2",
+        "text": "mple and hold\n• Interleaved sample and hold\n• Single shunt\nThe ADC can be served by the DMA controller.\nAn analog watchdog feature allows very precise monitoring of the converted voltage of one,\nsome or all selected channels. An interrupt is generated when the converted voltage is\noutside the programmed thresholds.\nThe events generated by the general-purpose timers (TIMx) and the advanced-control timer\n(TIM1) can be internally connected to the ADC start trigger, injection trigger, and DMA\ntrigge",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 20,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5730595079731354,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p17_paragraph_1",
+        "text": "and transfer sizes between\nsource and destination are independent.\nThe DMA can be used with the main peripherals: SPI, I2C, USART, general-purpose and\nadvanced-control timers TIMx and ADC.\n2.3.14 RTC (real-time cl ock) and backup registers\nThe RTC and the backup registers are supplied through a switch that takes power either on\nVDD supply when present or through the VBAT pin. The backup registers are ten 16-bit\nregisters used to store 20 bytes of user application data when VDD power is not prese",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5597611999369393,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p19_paragraph_2",
+        "text": "capability.\nAll USART interfaces can be served by the DMA controller.\n2.3.18 Serial peripheral interface (SPI)\nUp to two SPIs are able to communicate up to 18 Mbits/s in slave and master modes in\nfull-duplex and simplex communication modes. The 3-bit prescaler gives 8 master mode\nfrequencies and the frame is configurable to 8 bits or 16 bits. The hardware CRC\ngeneration/verification supports basic SD Card/MMC modes.\nBoth SPIs can be served by the DMA controller.\n2.3.19 Controller area network (C",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5239993050098014,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p19_paragraph_1",
+        "text": "0-bit addressing in master\nmode. A hardware CRC generation/verification is embedded.\nThey can be served by DMA and they support SM Bus 2.0/PM Bus.\n2.3.17 Universal sync hronous/asynchronous receiver transmitter (USART)\nOne of the USART interfaces is able to communicate at speeds of up to 4.5 Mbit/s. The\nother available interfaces communicate at up to 2.25 Mbit/s. They provide hardware\nmanagement of the CTS and RTS signals, IrDA SIR ENDEC support, are ISO 7816\ncompliant and have LIN Master/Slave ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5008143485077836,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p17_paragraph_0 | stm32f103c8.pdf | page 17]\nDS5319 Rev 19 17/114\nSTM32F103x8, STM32F103xB Description\n104\n2.3.13 DMA\nThe flexible 7-channel general-purpose DMA is able to manage memory-to-memory,\nperipheral-to-memory and memory-to-peripheral transfers. The DMA controller supports\ncircular buffer management avoiding the generation of interrupts when the controller\nreaches the end of the buffer.\nEach channel is connected to dedicated hardware DMA requests, with support for software\ntrigger on each channel. Configuration is made by software \n\n[stm32f103c8_p20_paragraph_2 | stm32f103c8.pdf | page 20]\nmple and hold\n• Interleaved sample and hold\n• Single shunt\nThe ADC can be served by the DMA controller.\nAn analog watchdog feature allows very precise monitoring of the converted voltage of one,\nsome or all selected channels. An interrupt is generated when the converted voltage is\noutside the programmed thresholds.\nThe events generated by the general-purpose timers (TIMx) and the advanced-control timer\n(TIM1) can be internally connected to the ADC start trigger, injection trigger, and DMA\ntrigge\n\n[stm32f103c8_p17_paragraph_1 | stm32f103c8.pdf | page 17]\nand transfer sizes between\nsource and destination are independent.\nThe DMA can be used with the main peripherals: SPI, I2C, USART, general-purpose and\nadvanced-control timers TIMx and ADC.\n2.3.14 RTC (real-time cl ock) and backup registers\nThe RTC and the backup registers are supplied through a switch that takes power either on\nVDD supply when present or through the VBAT pin. The backup registers are ten 16-bit\nregisters used to store 20 bytes of user application data when VDD power is not prese",
+    "context_ids": [
+      "stm32f103c8_p17_paragraph_0",
+      "stm32f103c8_p20_paragraph_2",
+      "stm32f103c8_p17_paragraph_1"
+    ],
+    "context_chars": 1678,
+    "elapsed_ms": 51.34939999697963,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Timer điều khiển nâng cao TIM1 có thể được coi như bộ phát PWM mấy pha?",
+    "answerable": true,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p18_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.8369452357292175,
+        "rank": 1,
+        "method": "dense",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_1",
+        "text": "t timer, it has the same features as the TIMx timer. If\nconfigured as the 16-bit PWM generator, it has full modulation capability (0-100%).\nIn debug mode, the advanced-control timer counter can be frozen and the PWM outputs\ndisabled to turn off any power switch driven by these outputs.\nMany features are shared with those of the general-purpose TIM timers which have the\nsame architecture. The advanced-control timer can therefore work together with the TIM\ntimers via the Timer Link feature for syn",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.8140951991081238,
+        "rank": 2,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_2",
+        "text": "chronization or event chaining.\nGeneral-purpose timers (TIMx)\nThere are up to three synchronizable general-purpose timers embedded in the\nSTM32F103xx performance line devices. These timers are based on a 16-bit auto-reload\nup/down counter, a 16-bit prescaler and feature four independent channels each for input\ncapture/output compare, PWM or one-pulse mode output. This gives up to 12 input\ncaptures/output compares/PWMs on the largest packages.\nThe general-purpose timers can work together with the",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7726746933058101,
+        "rank": 3,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_3",
+        "text": " advanced-control timer via the Timer\nLink feature for synchronization or event chaining. Their counter can be frozen in debug\nmode. Any of the general-purpose timers can be used to generate PWM outputs. They all\nhave independent DMA request generation.\nThese timers are capable of handling quadrature (incremental) encoder signals and the\ndigital outputs from one to three Hall-effect sensors.\nIndependent watchdog\nThe independent watchdog is based on a 12-bit downcounter and 8-bit prescaler. It is",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7366945743560791,
+        "rank": 4,
+        "method": "dense",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_3",
+        "text": "otor control PWM timer with\ndead-time generation and emergency stop\n– Two watchdog timers (independent and\nwindow)\n– SysTick timer 24-bit downcounter\n• Up to nine communication interfaces\n– Up to two I 2C interfaces (SMBus/PMBus®)\n– Up to three USARTs (ISO 7816 interface,\nLIN, IrDA capability, modem control)\n– Up to two SPIs (18 Mbit/s)\n– CAN interface (2.0B Active)\n– USB 2.0 full-speed interface\n• CRC calculation unit, 96-bit unique ID\n• Packages are ECOPACK®",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.7158160209655762,
+        "rank": 5,
+        "method": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p18_paragraph_0 | stm32f103c8.pdf | page 18]\nDescription STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi\n\n[stm32f103c8_p18_paragraph_1 | stm32f103c8.pdf | page 18]\nt timer, it has the same features as the TIMx timer. If\nconfigured as the 16-bit PWM generator, it has full modulation capability (0-100%).\nIn debug mode, the advanced-control timer counter can be frozen and the PWM outputs\ndisabled to turn off any power switch driven by these outputs.\nMany features are shared with those of the general-purpose TIM timers which have the\nsame architecture. The advanced-control timer can therefore work together with the TIM\ntimers via the Timer Link feature for syn\n\n[stm32f103c8_p18_paragraph_2 | stm32f103c8.pdf | page 18]\nchronization or event chaining.\nGeneral-purpose timers (TIMx)\nThere are up to three synchronizable general-purpose timers embedded in the\nSTM32F103xx performance line devices. These timers are based on a 16-bit auto-reload\nup/down counter, a 16-bit prescaler and feature four independent channels each for input\ncapture/output compare, PWM or one-pulse mode output. This gives up to 12 input\ncaptures/output compares/PWMs on the largest packages.\nThe general-purpose timers can work together with the",
+    "context_ids": [
+      "stm32f103c8_p18_paragraph_0",
+      "stm32f103c8_p18_paragraph_1",
+      "stm32f103c8_p18_paragraph_2"
+    ],
+    "context_chars": 1678,
+    "elapsed_ms": 53.570600000966806,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "question": "STM32F103C8 có tích hợp sẵn Wi-Fi hoặc Bluetooth không?",
+    "answerable": false,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p13_paragraph_0",
+        "text": "DS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.5498679876327515,
+        "rank": 1,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4827268411354336,
+        "rank": 2,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p28_paragraph_0",
+        "text": "Pinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 28,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4466358854364125,
+        "rank": 3,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_4",
+        "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.44565847516059875,
+        "rank": 4,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.43069059069808846,
+        "rank": 5,
+        "method": "dense",
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p13_paragraph_0 | stm32f103c8.pdf | page 13]\nDS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p28_paragraph_0 | stm32f103c8.pdf | page 28]\nPinouts and pin description STM32F103x8, STM32F103xB\n28/114 DS5319 Rev 19\n\n[stm32f103c8_p9_paragraph_4 | stm32f103c8.pdf | page 9]\nripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+    "context_ids": [
+      "stm32f103c8_p13_paragraph_0",
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p28_paragraph_0",
+      "stm32f103c8_p9_paragraph_4"
+    ],
+    "context_chars": 1374,
+    "elapsed_ms": 59.478800001670606,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "question": "Giá bán lẻ đề xuất (MSRP) của STM32F103C8T6 là bao nhiêu USD?",
+    "answerable": false,
+    "filter": null,
+    "method": "dense",
+    "status": "ok",
+    "top_k": 5,
+    "results": [
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4635823667049441,
+        "rank": 1,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.45446791702126466,
+        "rank": 2,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p4_paragraph_0",
+        "text": "STM32F103x8, STM32F103xB\n4/114 DS5319 Rev 19\n6.7 LQFP64 package information (5W)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n6.8 TFBGA64 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\n6.9 LQFP48 package information (5B) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\n6.10 Thermal characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.1 Reference document  . . . . . . . . . . . ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 4,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4477455584851249,
+        "rank": 3,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p13_paragraph_0",
+        "text": "DS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.4237180008720167,
+        "rank": 4,
+        "method": "dense",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p21_paragraph_0",
+        "text": "DS5319 Rev 19 21/114\nSTM32F103x8, STM32F103xB Pinouts and pin description\n104\n3 Pinouts and pin description\nFigure 3. STM32F103xx performance line LFBGA100 ballout",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 21,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.39897822731603616,
+        "rank": 5,
+        "method": "dense",
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p9_paragraph_0 | stm32f103c8.pdf | page 9]\nDS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\n[stm32f103c8_p4_paragraph_0 | stm32f103c8.pdf | page 4]\nSTM32F103x8, STM32F103xB\n4/114 DS5319 Rev 19\n6.7 LQFP64 package information (5W)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n6.8 TFBGA64 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\n6.9 LQFP48 package information (5B) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\n6.10 Thermal characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.1 Reference document  . . . . . . . . . . . \n\n[stm32f103c8_p21_paragraph_0 | stm32f103c8.pdf | page 21]\nDS5319 Rev 19 21/114\nSTM32F103x8, STM32F103xB Pinouts and pin description\n104\n3 Pinouts and pin description\nFigure 3. STM32F103xx performance line LFBGA100 ballout",
+    "context_ids": [
+      "stm32f103c8_p9_paragraph_0",
+      "stm32f103c8_p10_paragraph_0",
+      "stm32f103c8_p4_paragraph_0",
+      "stm32f103c8_p21_paragraph_0"
+    ],
+    "context_chars": 1474,
+    "elapsed_ms": 50.210299999889685,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]

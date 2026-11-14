@@ -1,0 +1,475 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+    "answerable": true,
+    "filter": {
+      "device": "STM32F103C8"
+    },
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p17_paragraph_3",
+        "text": " for any natural crystal deviation. The RTC\nfeatures a 32-bit programmable counter for long-term measurement using the Compare\nregister to generate an alarm. A 20-bit prescaler is used for the time base clock and is by\ndefault configured to generate a time base of 1 second from a clock at 32.768 kHz.\n2.3.15 Timers and watchdogs\nThe medium-density STM32F103xx performance line devices include an advanced-control\ntimer, three general-purpose timers, two watchdog timers and a SysTick timer.\nTable 4 ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 7.5173488925446,
+        "rank": 1,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_3",
+        "text": "otor control PWM timer with\ndead-time generation and emergency stop\n– Two watchdog timers (independent and\nwindow)\n– SysTick timer 24-bit downcounter\n• Up to nine communication interfaces\n– Up to two I 2C interfaces (SMBus/PMBus®)\n– Up to three USARTs (ISO 7816 interface,\nLIN, IrDA capability, modem control)\n– Up to two SPIs (18 Mbit/s)\n– CAN interface (2.0B Active)\n– USB 2.0 full-speed interface\n• CRC calculation unit, 96-bit unique ID\n• Packages are ECOPACK®",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 6.678931906430762,
+        "rank": 2,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p19_paragraph_0",
+        "text": "DS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 6.385207735415717,
+        "rank": 3,
+        "method": "bm25",
+        "hit": true
+      }
+    ],
+    "context": "[stm32f103c8_p17_paragraph_3 | stm32f103c8.pdf | page 17]\n for any natural crystal deviation. The RTC\nfeatures a 32-bit programmable counter for long-term measurement using the Compare\nregister to generate an alarm. A 20-bit prescaler is used for the time base clock and is by\ndefault configured to generate a time base of 1 second from a clock at 32.768 kHz.\n2.3.15 Timers and watchdogs\nThe medium-density STM32F103xx performance line devices include an advanced-control\ntimer, three general-purpose timers, two watchdog timers and a SysTick timer.\nTable 4 ",
+    "context_ids": [
+      "stm32f103c8_p17_paragraph_3"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 1.2382999993860722,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p20_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 20,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 7.437484126914992,
+        "rank": 1,
+        "method": "bm25",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_5",
+        "text": "lable on the used package). For more\ndetails, refer to the Alternate function I/O and debug configuration section in the STM32F10xxx reference manual, available\nfrom the STMicroelectronics website: www.st.com.\nTable 5. Medium-density STM32F103xx pin definitions (continued)\nPins\nPin name\nType(1)\nI / O Level(2)\nMain\nfunction(3)\n(after reset)\nAlternate functions(4)\nLFBGA100\nUFBG100\nLQFP48/UFQFPN48\nTFBGA64\nLQFP64\nLQFP100\nVFQFPN36\nDefault Remap",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 4.108767643654214,
+        "rank": 2,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_0",
+        "text": "DS5319 Rev 19 33/114\nSTM32F103x8, STM32F103xB Pinouts and pin description\n104\nB4 A3 45 B3 61 95 - PB8 I/O FT PB8 TIM4_CH3 (9) I2C1_SCL / CANRX\nA4 B3 46 A3 62 96 - PB9 I/O FT PB9 TIM4_CH4 (9) I2C1_SDA/CANTX\nD4 C3 - - - 97 - PE0 I/O FT PE0 TIM4_ETR -\nC4 A2 - - - 98 - PE1 I/O FT PE1 - -\nE5 D3 47 D4 63 99 36 V SS_3 S- V SS_3 --\nF5 C4 48 E4 64 100 1 V DD_3 S- V DD_3 --\n1. I = input, O = output, S = supply.\n2. FT = 5 V tolerant.\n3. Function availability depends upon the chosen device. For devices havi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 3.700078390417791,
+        "rank": 3,
+        "method": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p20_paragraph_0 | stm32f103c8.pdf | page 20]\nDescription STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+    "context_ids": [
+      "stm32f103c8_p20_paragraph_0"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 0.7365999990724958,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p3_paragraph_0",
+        "text": "DS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 2.3491370770899667,
+        "rank": 1,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p3_paragraph_2",
+        "text": " . . . . . 38\n5.3.1 General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n5.3.2 Operating conditions at power-up / power- down  . . . . . . . . . . . . . . . . . . 39\n5.3.3 Embedded reset and power control block characteristics  . . . . . . . . . . . 39\n5.3.4 Embedded reference voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n5.3.5 Supply current characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 2.3255564857586988,
+        "rank": 2,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p3_paragraph_3",
+        "text": ". 40\n5.3.6 External clock source characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n5.3.7 Internal clock source characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\n5.3.8 PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.9 Memory characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.10 EMC characteristics . . . . . . . . . . . . . . . . . . . . . . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 2.314045710706972,
+        "rank": 3,
+        "method": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p3_paragraph_0 | stm32f103c8.pdf | page 3]\nDS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input ",
+    "context_ids": [
+      "stm32f103c8_p3_paragraph_0"
+    ],
+    "context_chars": 556,
+    "elapsed_ms": 0.5139999993843958,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+    "answerable": true,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p33_paragraph_4",
+        "text": "D0 and PD1 are available by default, so\nthere is no need for remapping. For more details, refer to the Alternate function I/O and debug configuration section in the\nSTM32F10xxx reference manual.\nThe use of PD0 and PD1 in output mode is limited as they can only be used at 50 MHz in output mode.\n8. Unlike in the LQFP64 package, there is no PC3 in the TFBGA64 package. The VREF+ functionality is provided instead.\n9. This alternate function can be remapped by software to some other port pins (if avai",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 10.081843493075514,
+        "rank": 1,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p34_paragraph_0",
+        "text": "Memory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 34,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 9.74518493665164,
+        "rank": 2,
+        "method": "bm25",
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p16_paragraph_4",
+        "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 9.00551207242748,
+        "rank": 3,
+        "method": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p33_paragraph_4 | stm32f103c8.pdf | page 33]\nD0 and PD1 are available by default, so\nthere is no need for remapping. For more details, refer to the Alternate function I/O and debug configuration section in the\nSTM32F10xxx reference manual.\nThe use of PD0 and PD1 in output mode is limited as they can only be used at 50 MHz in output mode.\n8. Unlike in the LQFP64 package, there is no PC3 in the TFBGA64 package. The VREF+ functionality is provided instead.\n9. This alternate function can be remapped by software to some other port pins (if avai",
+    "context_ids": [
+      "stm32f103c8_p33_paragraph_4"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 0.4566999996313825,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p16_paragraph_4",
+        "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 3.509956768814435,
+        "rank": 1,
+        "method": "bm25",
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_4",
+        "text": "D0 and PD1 are available by default, so\nthere is no need for remapping. For more details, refer to the Alternate function I/O and debug configuration section in the\nSTM32F10xxx reference manual.\nThe use of PD0 and PD1 in output mode is limited as they can only be used at 50 MHz in output mode.\n8. Unlike in the LQFP64 package, there is no PC3 in the TFBGA64 package. The VREF+ functionality is provided instead.\n9. This alternate function can be remapped by software to some other port pins (if avai",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 3.447529262046914,
+        "rank": 2,
+        "method": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p16_paragraph_4 | stm32f103c8.pdf | page 16]\nto achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+    "context_ids": [
+      "stm32f103c8_p16_paragraph_4"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 0.534999999217689,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "STM32F103C8 có hỗ trợ MAC Ethernet tích hợp không?",
+    "answerable": false,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p1_paragraph_4",
+        "text": "Table 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 5.033558321203066,
+        "rank": 1,
+        "method": "bm25",
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p1_paragraph_4 | stm32f103c8.pdf | page 1]\nTable 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com",
+    "context_ids": [
+      "stm32f103c8_p1_paragraph_4"
+    ],
+    "context_chars": 376,
+    "elapsed_ms": 0.30609999885200523,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "Datasheet có khuyến nghị dùng debugger/probe nào (ví dụ ST-LINK) khi lập trình STM32F103C8 không?",
+    "answerable": false,
+    "filter": null,
+    "method": "bm25",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p1_paragraph_4",
+        "text": "Table 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 8.490720596187874,
+        "rank": 1,
+        "method": "bm25",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_1",
+        "text": "xx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 6.354694140083068,
+        "rank": 2,
+        "method": "bm25",
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p1_paragraph_0",
+        "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 6.079554180367095,
+        "rank": 3,
+        "method": "bm25",
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p1_paragraph_4 | stm32f103c8.pdf | page 1]\nTable 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com",
+    "context_ids": [
+      "stm32f103c8_p1_paragraph_4"
+    ],
+    "context_chars": 376,
+    "elapsed_ms": 0.3269000008003786,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]

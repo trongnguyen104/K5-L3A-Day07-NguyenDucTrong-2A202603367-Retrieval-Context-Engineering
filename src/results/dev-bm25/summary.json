@@ -1,0 +1,21 @@
+{
+  "method": "bm25",
+  "split": "dev",
+  "n_answerable": 15,
+  "n_unanswerable": 2,
+  "n_scored": 15,
+  "errors": 0,
+  "hit1": 6,
+  "hit3": 8,
+  "context_evidence": 6,
+  "hit1_rate": 0.4,
+  "hit3_rate": 0.5333,
+  "context_evidence_rate": 0.4,
+  "avg_context_chars": 548.5333333333333,
+  "median_ms": 0.4865000009885989,
+  "elapsed_seconds": 0.011278500001935754,
+  "top_k": 3,
+  "context_budget": 800,
+  "index_seconds": 0.5267238999986148,
+  "store": "day6"
+}

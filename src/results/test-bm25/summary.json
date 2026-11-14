@@ -1,0 +1,21 @@
+{
+  "method": "bm25",
+  "split": "test",
+  "n_answerable": 5,
+  "n_unanswerable": 2,
+  "n_scored": 5,
+  "errors": 0,
+  "hit1": 1,
+  "hit3": 3,
+  "context_evidence": 1,
+  "hit1_rate": 0.2,
+  "hit3_rate": 0.6,
+  "context_evidence_rate": 0.2,
+  "avg_context_chars": 557.6,
+  "median_ms": 0.5139999993843958,
+  "elapsed_seconds": 0.004636500001652166,
+  "top_k": 3,
+  "context_budget": 800,
+  "index_seconds": 0.5340739999992365,
+  "store": "day6"
+}

@@ -1,0 +1,21 @@
+{
+  "method": "dense",
+  "split": "dev",
+  "n_answerable": 15,
+  "n_unanswerable": 2,
+  "n_scored": 15,
+  "errors": 0,
+  "hit1": 9,
+  "hit3": 10,
+  "context_evidence": 9,
+  "hit1_rate": 0.6,
+  "hit3_rate": 0.6667,
+  "context_evidence_rate": 0.6,
+  "avg_context_chars": 592.8666666666667,
+  "median_ms": 28.03180000046268,
+  "elapsed_seconds": 0.808460299998842,
+  "top_k": 3,
+  "context_budget": 800,
+  "index_seconds": 19.63309620000291,
+  "store": "day6"
+}

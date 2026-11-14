@@ -1,0 +1,4 @@
+# BM25, hybrid RRF, metrics và CLI chỉ dùng thư viện chuẩn.
+# psycopg chỉ cần khi truy vấn trực tiếp pgvector Day 6 (--store day6).
+psycopg[binary]>=3.1
+python-dotenv>=1.0

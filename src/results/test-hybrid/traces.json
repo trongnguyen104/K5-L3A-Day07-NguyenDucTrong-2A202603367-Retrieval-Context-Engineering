@@ -1,0 +1,680 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+    "answerable": true,
+    "filter": {
+      "device": "STM32F103C8"
+    },
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p19_paragraph_0",
+        "text": "DS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 19,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03200204813108039,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 2,
+          "bm25": 3
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p17_paragraph_3",
+        "text": " for any natural crystal deviation. The RTC\nfeatures a 32-bit programmable counter for long-term measurement using the Compare\nregister to generate an alarm. A 20-bit prescaler is used for the time base clock and is by\ndefault configured to generate a time base of 1 second from a clock at 32.768 kHz.\n2.3.15 Timers and watchdogs\nThe medium-density STM32F103xx performance line devices include an advanced-control\ntimer, three general-purpose timers, two watchdog timers and a SysTick timer.\nTable 4 ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 17,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03131881575727918,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 7,
+          "bm25": 1
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p18_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 18,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.031024531024531024,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 3,
+          "bm25": 6
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p19_paragraph_0 | stm32f103c8.pdf | page 19]\nDS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+    "context_ids": [
+      "stm32f103c8_p19_paragraph_0"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 214.78489999935846,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p20_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 20,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_5",
+        "text": "lable on the used package). For more\ndetails, refer to the Alternate function I/O and debug configuration section in the STM32F10xxx reference manual, available\nfrom the STMicroelectronics website: www.st.com.\nTable 5. Medium-density STM32F103xx pin definitions (continued)\nPins\nPin name\nType(1)\nI / O Level(2)\nMain\nfunction(3)\n(after reset)\nAlternate functions(4)\nLFBGA100\nUFBG100\nLQFP48/UFQFPN48\nTFBGA64\nLQFP64\nLQFP100\nVFQFPN36\nDefault Remap",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "bm25": 2
+        },
+        "rank_weights": {
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_4",
+        "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 2
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p20_paragraph_0 | stm32f103c8.pdf | page 20]\nDescription STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+    "context_ids": [
+      "stm32f103c8_p20_paragraph_0"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 34.60099999938393,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p6_paragraph_4",
+        "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\nTable 60. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 6,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03055037313432836,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 4,
+          "bm25": 7
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p8_paragraph_2",
+        "text": ". . . . . . . 92\nFigure 51. LQFP64 - Outline (15). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\nFigure 52. LQFP64 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95\nFigure 53. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch thin profile fine pitch ball grid array\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 8,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.02919863597612958,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 9,
+          "bm25": 8
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p3_paragraph_0",
+        "text": "DS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "bm25": 1
+        },
+        "rank_weights": {
+          "bm25": 1.0
+        },
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p6_paragraph_4 | stm32f103c8.pdf | page 6]\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\nTable 60. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . .",
+    "context_ids": [
+      "stm32f103c8_p6_paragraph_4"
+    ],
+    "context_chars": 556,
+    "elapsed_ms": 29.08960000058869,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+    "answerable": true,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p34_paragraph_0",
+        "text": "Memory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 34,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 1,
+          "bm25": 2
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": true
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_4",
+        "text": "D0 and PD1 are available by default, so\nthere is no need for remapping. For more details, refer to the Alternate function I/O and debug configuration section in the\nSTM32F10xxx reference manual.\nThe use of PD0 and PD1 in output mode is limited as they can only be used at 50 MHz in output mode.\n8. Unlike in the LQFP64 package, there is no PC3 in the TFBGA64 package. The VREF+ functionality is provided instead.\n9. This alternate function can be remapped by software to some other port pins (if avai",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "bm25": 1
+        },
+        "rank_weights": {
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p7_paragraph_0",
+        "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 7,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 2
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p34_paragraph_0 | stm32f103c8.pdf | page 34]\nMemory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+    "context_ids": [
+      "stm32f103c8_p34_paragraph_0"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 32.28600000147708,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+    "answerable": true,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p16_paragraph_4",
+        "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 16,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 3,
+          "bm25": 1
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p3_paragraph_1",
+        "text": "voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 3,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 1
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": false
+      },
+      {
+        "id": "stm32f103c8_p2_paragraph_3",
+        "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup ",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 2,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 2
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": false
+      }
+    ],
+    "context": "[stm32f103c8_p16_paragraph_4 | stm32f103c8.pdf | page 16]\nto achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+    "context_ids": [
+      "stm32f103c8_p16_paragraph_4"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 35.03659999842057,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "STM32F103C8 có hỗ trợ MAC Ethernet tích hợp không?",
+    "answerable": false,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p1_paragraph_4",
+        "text": "Table 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 1,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.030886196246139225,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 9,
+          "bm25": 1
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p10_paragraph_0",
+        "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 10,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.01639344262295082,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 1
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p13_paragraph_0",
+        "text": "DS5319 Rev 19 13/114\nSTM32F103x8, STM32F103xB Description\n104\n2.2 Full compatibility throughout the family\nSTM32F103xx is a complete family whose members are fully pin-to-pin, software, and\nfeature compatible. In the reference manual, STM32F103x4 and STM32F103x6 are\nidentified as low-density devices, STM32F103x8 and STM32F103xB are referred to as\nmedium-density devices, and STM32F103xC, STM32F103xD, and STM32F103xE are\nreferred to as high-density devices.\nLow- and high-density devices are an ext",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 13,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.016129032258064516,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 2
+        },
+        "rank_weights": {
+          "dense": 1.0
+        },
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p1_paragraph_4 | stm32f103c8.pdf | page 1]\nTable 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com\n\n[stm32f103c8_p10_paragraph_0 | stm32f103c8.pdf | page 10]\nDescription STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview",
+    "context_ids": [
+      "stm32f103c8_p1_paragraph_4",
+      "stm32f103c8_p10_paragraph_0"
+    ],
+    "context_chars": 513,
+    "elapsed_ms": 28.623599999264115,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "Datasheet có khuyến nghị dùng debugger/probe nào (ví dụ ST-LINK) khi lập trình STM32F103C8 không?",
+    "answerable": false,
+    "filter": null,
+    "method": "hybrid-rrf",
+    "status": "ok",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "stm32f103c8_p9_paragraph_1",
+        "text": "xx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03128054740957967,
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 6,
+          "bm25": 2
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p33_paragraph_5",
+        "text": "lable on the used package). For more\ndetails, refer to the Alternate function I/O and debug configuration section in the STM32F10xxx reference manual, available\nfrom the STMicroelectronics website: www.st.com.\nTable 5. Medium-density STM32F103xx pin definitions (continued)\nPins\nPin name\nType(1)\nI / O Level(2)\nMain\nfunction(3)\n(after reset)\nAlternate functions(4)\nLFBGA100\nUFBG100\nLQFP48/UFQFPN48\nTFBGA64\nLQFP64\nLQFP100\nVFQFPN36\nDefault Remap",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 33,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.030886196246139225,
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 1,
+          "bm25": 9
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": null
+      },
+      {
+        "id": "stm32f103c8_p9_paragraph_0",
+        "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x",
+        "source_id": "stm32f103c8",
+        "source": "stm32f103c8.pdf",
+        "page": 9,
+        "metadata": {
+          "device": "STM32F103C8",
+          "family": "STM32F1",
+          "is_empty": false,
+          "manufacturer": "STMicroelectronics",
+          "chunking_strategy": "paragraph"
+        },
+        "score": 0.03076923076923077,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "ranks": {
+          "dense": 5,
+          "bm25": 5
+        },
+        "rank_weights": {
+          "dense": 1.0,
+          "bm25": 1.0
+        },
+        "hit": null
+      }
+    ],
+    "context": "[stm32f103c8_p9_paragraph_1 | stm32f103c8.pdf | page 9]\nxx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco",
+    "context_ids": [
+      "stm32f103c8_p9_paragraph_1"
+    ],
+    "context_chars": 556,
+    "elapsed_ms": 38.23530000227038,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]
